@@ -8,8 +8,9 @@ sudo apt-get update
 sudo apt-get install -y ruby2.2 ruby2.2-dev git nodejs
 wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
-sudo cp /vagrant ~/urbane -r
-cd ~/urbane
+sudo rm -rf /vagrant/voting-server/node_modules
+sudo cp /vagrant ~/redux -r
+cd ~/redux
 sudo chown -R `whoami` ./
 sudo npm install -g npm@"~3.3.10"
 npm install
