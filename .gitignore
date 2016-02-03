@@ -49,3 +49,6 @@ Temporary Items
 # Vagrant
 node_modules
 .vagrant
+
+#Webstorm
+.idea
